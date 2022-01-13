@@ -448,7 +448,7 @@ textarea {
   width: 100%;
   outline: 0;
   border-width: 0 0 2px;
-  border-color: black;
+  border-color: #818181;
   resize: vertical;
 }
 
@@ -460,9 +460,39 @@ textarea {
   font-size: var(--step--1);
   font-family: inherit;
   min-width: 30%;
+  border: none;
 }
 
 .flex-end {
   display: flex;
   justify-content: flex-end;
+}
+
+.user-avatar {
+  display: block;
+  border-radius: 50%;
+  position: relative;
+  bottom: 100px;
+  margin: 0 auto;
+  box-shadow: 5px 6px 6px 1px rgb(0 0 0 / 20%);
+}
+
+.user__tile {
+  text-align: center;
+  font-size: var(--step-0);
+  text-transform: uppercase;
+  color: #818181;
+  position: relative;
+  bottom: 50px;
+}
+.user__name {
+  text-align: center;
+  position: relative;
+  bottom: 35px;
+  font-weight: bold;
+  font-size: var(--step-2);
+}
+.user__bio {
+  text-align: center;
+  font-size: var(--step-0);
 }
