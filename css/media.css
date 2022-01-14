@@ -17,9 +17,6 @@
   .input-box {
     width: 100%;
   }
-  .card-info__nav-form {
-    bottom: 5%;
-  }
 }
 
 @media screen and (min-width: 500px) {
@@ -62,7 +59,7 @@
     order: 1;
   }
   .flex {
-    flex-direction: row;
+    flex-direction: row-reverse;
   }
 }
 
@@ -76,16 +73,10 @@
   .input-box {
     width: 100%;
   }
-  .card-info__nav-form {
-    bottom: 5%;
-  }
 }
 
 @media screen and (min-width: 800px) and (max-width: 950px) {
   .input-box {
     width: 100%;
-  }
-  .card-info__nav-form {
-    bottom: 5%;
   }
 }

@@ -499,7 +499,7 @@ textarea {
 
 .flex {
   display: flex;
-  flex-direction: column;
+  flex-direction: column-reverse;
   align-items: flex-start;
   gap: 1em;
 }
