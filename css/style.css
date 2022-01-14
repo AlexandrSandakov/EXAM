@@ -156,7 +156,7 @@ body.lock {
 
 .card-info_nav {
   flex: 1 0 auto;
-  width: min(370px, 49%);
+  width: max(370px, 100%);
 }
 
 .card-info__img-graph {
@@ -495,4 +495,11 @@ textarea {
 .user__bio {
   text-align: center;
   font-size: var(--step-0);
+}
+
+.flex {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 1em;
 }
