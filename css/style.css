@@ -156,7 +156,7 @@ body.lock {
 
 .card-info_nav {
   flex: 1 0 auto;
-  width: max(370px, 100%);
+  width: max(250px, 100%);
 }
 
 .card-info__img-graph {
