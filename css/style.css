@@ -423,6 +423,7 @@ table tr:last-child {
   background-color: var(--bg-color-red);
   color: white;
   font-size: var(--step--1);
+  transform: translateY(-40px);
 }
 
 form .user-details {
