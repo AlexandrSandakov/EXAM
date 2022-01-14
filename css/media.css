@@ -22,17 +22,6 @@
   }
 }
 
-@media all and (min-width: 1000px) {
-  .card-info_nav {
-    flex: 1 0 auto;
-    width: min(330px, 48%);
-    order: 1;
-  }
-  .flex {
-    flex-direction: row;
-  }
-}
-
 @media screen and (min-width: 500px) {
   .flex-wrapper {
     flex-direction: row;
@@ -66,6 +55,14 @@
 
   .card-info__img {
     padding: 2.2em;
+  }
+  .card-info_nav {
+    flex: 1 0 auto;
+    width: min(330px, 48%);
+    order: 1;
+  }
+  .flex {
+    flex-direction: row;
   }
 }
 
